@@ -8,7 +8,7 @@
   let tempDecal;
 
   const textureLoader = new THREE.TextureLoader();
-  const decal = textureLoader.load("/favicon.png");
+  const decal = textureLoader.load("/decals/favicon.png");
   const decalMat = new THREE.MeshPhongMaterial({
     depthWrite: false,
     polygonOffset: true,
