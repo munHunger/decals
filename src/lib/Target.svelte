@@ -5,7 +5,7 @@
 
 <GLTF
   useDraco="https://www.gstatic.com/draco/v1/decoders/"
-  url="/bottle.glb"
+  url="/decals/bottle.glb"
   on:create={({ ref }) => {
     console.log(ref);
     mesh = ref.children[1]; //should be an array
